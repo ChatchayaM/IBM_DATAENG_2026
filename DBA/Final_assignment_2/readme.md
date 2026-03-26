@@ -34,17 +34,17 @@ Restore this file onto MySQL server. List the tables in the billing database.
     FROM billdata
     WHERE billedamount > 19999;
     ```
-    ![Image](../Final_assignment_2/submissions/query-base-line.jpg)
+    ![Image](../Final_assignment_2/submissions/query-base-line.png)
 * create an appropriate index to make it run faster
-    ![Image](../Final_assignment_2/submissions/index-creation.jpg)
+    ![Image](../Final_assignment_2/submissions/index-creation.png)
 * Document the improvement in query performance
-    ![Image](../Final_assignment_2/submissions/query-indexed.jpg)
+    ![Image](../Final_assignment_2/submissions/query-indexed.png)
 
 ### Task 2.4: Storage Engines
 * Run a command to find out if your MySQL server supports the MyISAM storage engine.
-    ![Image](../Final_assignment_2/submissions/storage-engines.jpg)
+    ![Image](../Final_assignment_2/submissions/storage-engines.png)
 * Find the storage engine of the table billdata.
-    ![Image](../Final_assignment_2/submissions/storage-engine-type.jpg)
+    ![Image](../Final_assignment_2/submissions/storage-engine-type.png)
 
 ### Task 2.5- OPTIONAL Exercise (Non-graded) Automation of routine tasks
 * Write a bash script that performs a backup of all the databases
@@ -52,7 +52,7 @@ mysqldump is a command line tool that performs logical backups of a database.
 
     - Its generic syntax is mysqldump db_name > backup-file.sql
 
-    - Its extended syntax is mysqldump --all-databases --user=root --password=NzA4Ny1y > backup-file.sql
+    - Its extended syntax is mysqldump --all-databases --user=root --password=xxx > backup-file.sql
 
     - Write a bash script named mybackup.shthat performs the following tasks.
 
